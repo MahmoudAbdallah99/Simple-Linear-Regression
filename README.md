@@ -1,1 +1,5 @@
 # Simple-Linear-Regression
+SAS program for the example of weights and heart girth of cows
+# Output exeplanation
+
+The first table is an ANOVA table for the dependent variable weight. The sources of variability are Model, Error and Corrected Total. In the table are listed degrees of freedom (DF), Sum of Squares, Mean Square, calculated F (F value) and P value (Prob>F). It can be seen that F = 16.642 with a P value = 0.0151. This means that the sample regression coefficient is significantly different than zero. Below the ANOVA table, the standard deviation of the regression model (Root MSE) = 10.76225 and the coefficient of determination (R-square) = 0.8062 are given. Under the title Parameter Estimates, the parameter estimates are presented with standard errors and corresponding t tests indicating whether the estimates are significantly different than zero. Here, b0 (INTERCEP) = -974.046020 and b1 (H_GIRTH) = 7.529412. The Standard errors are 400.54323178 and 1.84571029 for b0 and b1, respectively. The calculated t statistic is 4.079, with the P value (Prob > |T|) = 0.0151. This confirms that b1 is significantly different to zero.
